@@ -48,9 +48,6 @@
   <template name="cdup" value="&#10;componentDidUpdate(prevProps, prevState) {&#10;    $END$&#10;}&#10;" description="Invoked immediately after the component's updates are flushed to the DOM." toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="cwun" value="componentWillUnmount() {&#10;    $END$&#10;}&#10;" description="Invoked immediately before a component is unmounted from the DOM." toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
   <template name="ren" value="&#10;render() {&#10;    return (&#10;        &lt;div&gt;&#10;            $END$&#10;        &lt;/div&gt;&#10;    );&#10;}&#10;" description="When called, it should examine this.props and this.state and return a single child element." toReformat="true" toShortenFQNames="true">
     <context />
   </template>
